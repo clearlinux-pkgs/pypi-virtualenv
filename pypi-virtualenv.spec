@@ -25,6 +25,7 @@ BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(six)
 BuildRequires : pypi(wheel)
+Provides: virtualenv
 
 %description
 # virtualenv
