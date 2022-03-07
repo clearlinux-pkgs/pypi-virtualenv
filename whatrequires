@@ -25,17 +25,21 @@ mypy
 nose-parameterized
 ntlm-auth
 pathos
+pdns
+pdns-recursor
 pox
 ppft
 pynvim
 pypi-ansi2html
 pypi-ansible_compat
+pypi-argon2_cffi
 pypi-arrow
 pypi-asttokens
 pypi-attrs
 pypi-backports.entry_points_selectable
 pypi-bcrypt
 pypi-black
+pypi-blessed
 pypi-blockdiag
 pypi-cachetools
 pypi-click
@@ -43,6 +47,7 @@ pypi-compreffor
 pypi-coverage
 pypi-datetime
 pypi-ecdsa
+pypi-elementpath
 pypi-enrich
 pypi-executing
 pypi-fastimport
@@ -59,6 +64,7 @@ pypi-jaraco.collections
 pypi-jaraco.context
 pypi-jaraco.functools
 pypi-jaraco.text
+pypi-jarn.viewdoc
 pypi-josepy
 pypi-jsonpickle
 pypi-khal
@@ -70,6 +76,7 @@ pypi-matplotlib
 pypi-molecule
 pypi-natsort
 pypi-nibabel
+pypi-persistent
 pypi-platformdirs
 pypi-portend
 pypi-prettytable
@@ -90,6 +97,7 @@ pypi-python_dotenv
 pypi-python_xlib
 pypi-pytz_deprecation_shim
 pypi-pyusb
+pypi-readme_renderer
 pypi-semantic_version
 pypi-setuptools_scm
 pypi-singledispatch
@@ -121,6 +129,7 @@ pypi-webob
 pypi-werkzeug
 pypi-wheel
 pypi-wsgiproxy2
+pypi-wsproto
 pypi-xmlschema
 pypi-yapf
 pypi-zc.lockfile
@@ -134,6 +143,7 @@ pypi-zope.i18nmessageid
 pypi-zope.schema
 pypi-zope.testing
 pypi-zope.testrunner
+pypi-zopfli
 python-remoto
 python-rpm-packaging
 python-utils
