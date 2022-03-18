@@ -42,7 +42,9 @@ pypi-black
 pypi-blessed
 pypi-blockdiag
 pypi-cachetools
+pypi-check_manifest
 pypi-click
+pypi-columnize
 pypi-compreffor
 pypi-coverage
 pypi-datetime
@@ -72,6 +74,7 @@ pypi-kubernetes
 pypi-lazy_object_proxy
 pypi-libarchive_c
 pypi-lz4
+pypi-mako
 pypi-matplotlib
 pypi-molecule
 pypi-natsort
@@ -122,7 +125,9 @@ pypi-tldextract
 pypi-toml
 pypi-twine
 pypi-typeguard
+pypi-tzdata
 pypi-unidecode
+pypi-userpath
 pypi-waitress
 pypi-webcolors
 pypi-webob
