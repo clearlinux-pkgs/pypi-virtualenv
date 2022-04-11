@@ -39,6 +39,7 @@ pypi-attrs
 pypi-backports.entry_points_selectable
 pypi-bcrypt
 pypi-black
+pypi-bleach
 pypi-blessed
 pypi-blockdiag
 pypi-cachetools
@@ -59,6 +60,7 @@ pypi-flask
 pypi-flit
 pypi-fontmath
 pypi-fsspec
+pypi-graphviz
 pypi-h5py
 pypi-humanize
 pypi-importlib_metadata
@@ -86,7 +88,6 @@ pypi-persistent
 pypi-platformdirs
 pypi-portend
 pypi-prettytable
-pypi-prompt_toolkit
 pypi-pure_eval
 pypi-pyelftools
 pypi-pyfakefs
@@ -105,6 +106,7 @@ pypi-python_xlib
 pypi-pytz_deprecation_shim
 pypi-pyusb
 pypi-readme_renderer
+pypi-salib
 pypi-semantic_version
 pypi-serpent
 pypi-setuptools_rust
@@ -132,6 +134,7 @@ pypi-toml
 pypi-twine
 pypi-typeguard
 pypi-tzdata
+pypi-ufolib2
 pypi-unidecode
 pypi-userpath
 pypi-waitress
