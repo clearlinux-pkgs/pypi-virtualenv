@@ -38,6 +38,7 @@ pypi-arrow
 pypi-asttokens
 pypi-atpublic
 pypi-attrs
+pypi-automat
 pypi-backports.entry_points_selectable
 pypi-backports.functools_lru_cache
 pypi-backports.shutil_get_terminal_size
@@ -46,6 +47,7 @@ pypi-bcrypt
 pypi-black
 pypi-bleach
 pypi-blessed
+pypi-blinker
 pypi-blockdiag
 pypi-booleanoperations
 pypi-bracex
@@ -89,10 +91,12 @@ pypi-hpack
 pypi-html5lib
 pypi-humanize
 pypi-hyperframe
+pypi-hyperlink
 pypi-icalendar
 pypi-ijson
 pypi-importlib_metadata
 pypi-importlib_resources
+pypi-incremental
 pypi-inflect
 pypi-iniconfig
 pypi-jaraco.classes
