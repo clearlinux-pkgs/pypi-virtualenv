@@ -124,6 +124,7 @@ pypi-molecule
 pypi-molecule_docker
 pypi-more_itertools
 pypi-munch
+pypi-myst_nb
 pypi-myst_parser
 pypi-natsort
 pypi-nibabel
