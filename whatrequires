@@ -83,6 +83,8 @@ pypi-flit
 pypi-fontmath
 pypi-fsspec
 pypi-funcparserlib
+pypi-gql
+pypi-graphql_core
 pypi-graphviz
 pypi-greenlet
 pypi-h2
@@ -180,7 +182,6 @@ pypi-sentinels
 pypi-seqdiag
 pypi-serpent
 pypi-setuptools_scm
-pypi-singledispatch
 pypi-soupsieve
 pypi-sphinx
 pypi-sphinx_ansible_theme
