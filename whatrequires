@@ -89,6 +89,7 @@ pypi-graphviz
 pypi-greenlet
 pypi-h2
 pypi-h5py
+pypi-hatch_fancy_pypi_readme
 pypi-hpack
 pypi-html5lib
 pypi-humanize
@@ -133,6 +134,7 @@ pypi-nibabel
 pypi-nltk
 pypi-ovirt_imageio
 pypi-paste
+pypi-pathspec
 pypi-patsy
 pypi-pep517
 pypi-perl
