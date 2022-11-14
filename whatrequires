@@ -40,10 +40,6 @@ pypi-asttokens
 pypi-atpublic
 pypi-attrs
 pypi-automat
-pypi-backports.entry_points_selectable
-pypi-backports.functools_lru_cache
-pypi-backports.shutil_get_terminal_size
-pypi-backports.weakref
 pypi-bcrypt
 pypi-black
 pypi-bleach
@@ -200,7 +196,6 @@ pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
 pypi-sqlparse
 pypi-stack_data
-pypi-statsmodels
 pypi-subprocess_tee
 pypi-sure
 pypi-tblib
