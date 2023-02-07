@@ -1,6 +1,5 @@
 # This file contains recursive sources that require this package
 MarkupSafe
-PyMySQL
 PySocks
 borgbackup
 boto3
@@ -73,7 +72,6 @@ pypi-execnet
 pypi-executing
 pypi-falcon
 pypi-fastimport
-pypi-filelock
 pypi-flake8_docstrings
 pypi-flask
 pypi-flit
@@ -97,7 +95,6 @@ pypi-importlib_metadata
 pypi-importlib_resources
 pypi-incremental
 pypi-inflect
-pypi-iniconfig
 pypi-jaraco.classes
 pypi-jaraco.collections
 pypi-jaraco.context
@@ -137,14 +134,13 @@ pypi-patsy
 pypi-pep517
 pypi-perl
 pypi-persistent
+pypi-picobox
 pypi-pip_tools
 pypi-pkginfo
-pypi-platformdirs
 pypi-portend
 pypi-prettytable
 pypi-pure_eval
 pypi-pybtex
-pypi-pycares
 pypi-pydot_ng
 pypi-pyelftools
 pypi-pyjwt
@@ -153,6 +149,8 @@ pypi-pynacl
 pypi-pynsist
 pypi-pyopenssl
 pypi-pyperf
+pypi-pyproject_api
+pypi-pyproject_hooks
 pypi-pytest_asyncio
 pypi-pytest_cov
 pypi-pytest_forked
@@ -214,6 +212,7 @@ pypi-unidecode
 pypi-urlobject
 pypi-userpath
 pypi-waitress
+pypi-watchdog
 pypi-webcolors
 pypi-webob
 pypi-werkzeug
@@ -236,6 +235,5 @@ python-remoto
 python-rpm-packaging
 python-utils
 python-zeep
-pyudev
 scour
 sshuttle
