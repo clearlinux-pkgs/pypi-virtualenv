@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-virtualenv
-Version  : 20.23.0
-Release  : 190
-URL      : https://files.pythonhosted.org/packages/d6/37/3ff25b2ad0d51cfd752dc68ee0ad4387f058a5ceba4d89b47ac478de3f59/virtualenv-20.23.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d6/37/3ff25b2ad0d51cfd752dc68ee0ad4387f058a5ceba4d89b47ac478de3f59/virtualenv-20.23.0.tar.gz
+Version  : 20.23.1
+Release  : 191
+URL      : https://files.pythonhosted.org/packages/21/6b/0910aebe4d5c2a27d5a79ab8fae06d22f7e01dff46baf29ced8d080134c3/virtualenv-20.23.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/21/6b/0910aebe4d5c2a27d5a79ab8fae06d22f7e01dff46baf29ced8d080134c3/virtualenv-20.23.1.tar.gz
 Summary  : Virtual Python Environment builder
 Group    : Development/Tools
 License  : MIT
@@ -16,6 +16,7 @@ Requires: pypi-virtualenv-license = %{version}-%{release}
 Requires: pypi-virtualenv-python = %{version}-%{release}
 Requires: pypi-virtualenv-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(hatch_vcs)
 BuildRequires : pypi(hatchling)
 # Suppress stripping binaries
 %define __strip /bin/true
@@ -74,10 +75,10 @@ python3 components for the pypi-virtualenv package.
 
 
 %prep
-%setup -q -n virtualenv-20.23.0
-cd %{_builddir}/virtualenv-20.23.0
+%setup -q -n virtualenv-20.23.1
+cd %{_builddir}/virtualenv-20.23.1
 pushd ..
-cp -a virtualenv-20.23.0 buildavx2
+cp -a virtualenv-20.23.1 buildavx2
 popd
 
 %build
@@ -85,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682976119
+export SOURCE_DATE_EPOCH=1687188442
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
