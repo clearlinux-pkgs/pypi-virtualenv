@@ -1,5 +1,5 @@
 PKG_NAME := pypi-virtualenv
-URL = https://files.pythonhosted.org/packages/26/c6/169a384bfe44de610f5bbc03b3d4cc23a5a64a75be11864a033f2fe195db/virtualenv-20.24.0.tar.gz
+URL = https://files.pythonhosted.org/packages/7c/08/cc69e4b3d499ee9570c4c57f23d5e71ed814fcf03988a4edd3081cb74577/virtualenv-20.24.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
