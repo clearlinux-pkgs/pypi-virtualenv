@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-virtualenv
-Version  : 20.24.2
-Release  : 194
-URL      : https://files.pythonhosted.org/packages/ea/3a/9e31ffe1d38f2ca7e249445783651548103237b29dd6389c104ff0feef93/virtualenv-20.24.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/ea/3a/9e31ffe1d38f2ca7e249445783651548103237b29dd6389c104ff0feef93/virtualenv-20.24.2.tar.gz
+Version  : 20.24.3
+Release  : 195
+URL      : https://files.pythonhosted.org/packages/77/f9/f6319b17869e66571966060051894d7a6dc77feceb25a9ebb6daee7eed5a/virtualenv-20.24.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/77/f9/f6319b17869e66571966060051894d7a6dc77feceb25a9ebb6daee7eed5a/virtualenv-20.24.3.tar.gz
 Summary  : Virtual Python Environment builder
 Group    : Development/Tools
 License  : MIT
@@ -75,10 +75,10 @@ python3 components for the pypi-virtualenv package.
 
 
 %prep
-%setup -q -n virtualenv-20.24.2
-cd %{_builddir}/virtualenv-20.24.2
+%setup -q -n virtualenv-20.24.3
+cd %{_builddir}/virtualenv-20.24.3
 pushd ..
-cp -a virtualenv-20.24.2 buildavx2
+cp -a virtualenv-20.24.3 buildavx2
 popd
 
 %build
@@ -86,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690233763
+export SOURCE_DATE_EPOCH=1691777487
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
