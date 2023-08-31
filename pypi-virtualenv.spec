@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-virtualenv
-Version  : 20.24.3
-Release  : 195
-URL      : https://files.pythonhosted.org/packages/77/f9/f6319b17869e66571966060051894d7a6dc77feceb25a9ebb6daee7eed5a/virtualenv-20.24.3.tar.gz
-Source0  : https://files.pythonhosted.org/packages/77/f9/f6319b17869e66571966060051894d7a6dc77feceb25a9ebb6daee7eed5a/virtualenv-20.24.3.tar.gz
+Version  : 20.24.4
+Release  : 196
+URL      : https://files.pythonhosted.org/packages/a6/8e/2ebdf99a0dd15249272780e34fa40e3becfd28689505979d3ec6aa2f6ce1/virtualenv-20.24.4.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a6/8e/2ebdf99a0dd15249272780e34fa40e3becfd28689505979d3ec6aa2f6ce1/virtualenv-20.24.4.tar.gz
 Summary  : Virtual Python Environment builder
 Group    : Development/Tools
 License  : MIT
@@ -29,7 +29,7 @@ BuildRequires : pypi(hatchling)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)
 [![Documentation](https://readthedocs.org/projects/virtualenv/badge/?version=latest&style=flat-square)](http://virtualenv.pypa.io)
 [![Discord](https://img.shields.io/discord/803025117553754132)](https://discord.gg/pypa)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/virtualenv?style=flat-square)](https://pypistats.org/packages/virtualenv)
+[![Downloads](https://static.pepy.tech/badge/virtualenv/month)](https://pepy.tech/project/virtualenv)
 [![PyPI - License](https://img.shields.io/pypi/l/virtualenv?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Build Status](https://github.com/pypa/virtualenv/workflows/check/badge.svg?branch=main&event=push)](https://github.com/pypa/virtualenv/actions?query=workflow%3Acheck)
 [![Code style:
@@ -75,10 +75,10 @@ python3 components for the pypi-virtualenv package.
 
 
 %prep
-%setup -q -n virtualenv-20.24.3
-cd %{_builddir}/virtualenv-20.24.3
+%setup -q -n virtualenv-20.24.4
+cd %{_builddir}/virtualenv-20.24.4
 pushd ..
-cp -a virtualenv-20.24.3 buildavx2
+cp -a virtualenv-20.24.4 buildavx2
 popd
 
 %build
@@ -86,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1691777487
+export SOURCE_DATE_EPOCH=1693442933
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
