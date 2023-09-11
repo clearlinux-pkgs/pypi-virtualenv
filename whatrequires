@@ -49,7 +49,7 @@ pypi-blinker
 pypi-blockdiag
 pypi-boolean.py
 pypi-booleanoperations
-pypi-bracex
+pypi-build
 pypi-cachetools
 pypi-cffsubr
 pypi-check_jsonschema
@@ -166,7 +166,6 @@ pypi-prettytable
 pypi-pure_eval
 pypi-pybtex
 pypi-pydot_ng
-pypi-pyelftools
 pypi-pygithub
 pypi-pyjwt
 pypi-pynacl
@@ -204,7 +203,6 @@ pypi-sentinels
 pypi-seqdiag
 pypi-setuptools_scm
 pypi-sh
-pypi-soupsieve
 pypi-sphinx
 pypi-sphinx_ansible_theme
 pypi-sphinx_design
