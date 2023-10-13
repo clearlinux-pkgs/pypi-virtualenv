@@ -5,7 +5,7 @@
 #
 Name     : pypi-virtualenv
 Version  : 20.24.5
-Release  : 197
+Release  : 198
 URL      : https://files.pythonhosted.org/packages/d3/50/fa955bbda25c0f01297843be105f9d022f461423e69a6ab487ed6cabf75d/virtualenv-20.24.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d3/50/fa955bbda25c0f01297843be105f9d022f461423e69a6ab487ed6cabf75d/virtualenv-20.24.5.tar.gz
 Summary  : Virtual Python Environment builder
