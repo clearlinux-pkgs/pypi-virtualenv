@@ -18,7 +18,6 @@ mod_wsgi
 multiprocess
 mypy
 nose-parameterized
-ntlm-auth
 pathos
 pdns
 pdns-recursor
@@ -127,6 +126,7 @@ pypi-libarchive_c
 pypi-license_expression
 pypi-linkchecker
 pypi-linkify_it_py
+pypi-looseversion
 pypi-lz4
 pypi-macholib
 pypi-mako
@@ -152,6 +152,7 @@ pypi-paste
 pypi-pastedeploy
 pypi-pathspec
 pypi-patsy
+pypi-pdm
 pypi-pep517
 pypi-perl
 pypi-persistent
@@ -161,6 +162,7 @@ pypi-pkginfo
 pypi-plaster
 pypi-plaster_pastedeploy
 pypi-platformdirs
+pypi-portalocker
 pypi-portend
 pypi-prettytable
 pypi-pure_eval
@@ -200,7 +202,6 @@ pypi-selectors34
 pypi-selinux
 pypi-semantic_version
 pypi-sentinels
-pypi-seqdiag
 pypi-setuptools_scm
 pypi-sh
 pypi-sphinx
@@ -238,13 +239,14 @@ pypi-uharfbuzz
 pypi-unidecode
 pypi-uritools
 pypi-urlobject
+pypi-urwid
 pypi-userpath
 pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
 pypi-wcmatch
-pypi-webcolors
+pypi-wcwidth
 pypi-webob
 pypi-werkzeug
 pypi-wsgiproxy2
