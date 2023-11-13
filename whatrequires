@@ -83,6 +83,7 @@ pypi-fastimport
 pypi-filelock
 pypi-fixtures
 pypi-flake8_docstrings
+pypi-flake8_isort
 pypi-flask
 pypi-flit
 pypi-fontmath
@@ -115,7 +116,6 @@ pypi-jaraco.functools
 pypi-jaraco.text
 pypi-jarn.viewdoc
 pypi-javaproperties
-pypi-josepy
 pypi-jsonpickle
 pypi-jupyter_cache
 pypi-khal

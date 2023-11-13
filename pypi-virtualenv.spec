@@ -7,7 +7,7 @@
 #
 Name     : pypi-virtualenv
 Version  : 20.24.6
-Release  : 199
+Release  : 200
 URL      : https://files.pythonhosted.org/packages/8d/e9/f4550b3af1b5c71d42913430d325ca270ace65896bfd8ba04472566709cc/virtualenv-20.24.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8d/e9/f4550b3af1b5c71d42913430d325ca270ace65896bfd8ba04472566709cc/virtualenv-20.24.6.tar.gz
 Summary  : Virtual Python Environment builder
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698160067
+export SOURCE_DATE_EPOCH=1699904438
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -104,6 +104,7 @@ FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
 export MAKEFLAGS=%{?_smp_mflags}
+pypi-dep-fix.py . platformdirs
 python3 -m build --wheel --skip-dependency-check --no-isolation
 pushd ../buildavx2/
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -m64 -march=x86-64-v3 -Wl,-z,x86-64-v3 "
@@ -111,6 +112,7 @@ CXXFLAGS="$CLEAR_INTERMEDIATE_CXXFLAGS -m64 -march=x86-64-v3 -Wl,-z,x86-64-v3 "
 FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -m64 -march=x86-64-v3 -Wl,-z,x86-64-v3 "
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS -m64 -march=x86-64-v3 "
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS -m64 -march=x86-64-v3 "
+pypi-dep-fix.py . platformdirs
 python3 -m build --wheel --skip-dependency-check --no-isolation
 
 popd
@@ -135,6 +137,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/pypi-virtualenv
 cp %{_builddir}/virtualenv-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/pypi-virtualenv/bcaf1877d014a17d06f0e23264c6429acf921d01 || :
 python3 -m installer --destdir=%{buildroot} dist/*.whl
+pypi-dep-fix.py %{buildroot} platformdirs
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
