@@ -50,6 +50,7 @@ pypi-boolean.py
 pypi-booleanoperations
 pypi-build
 pypi-cachetools
+pypi-cattrs
 pypi-cffsubr
 pypi-check_jsonschema
 pypi-check_manifest
@@ -169,6 +170,7 @@ pypi-pure_eval
 pypi-pybtex
 pypi-pydot_ng
 pypi-pygithub
+pypi-pygments
 pypi-pyjwt
 pypi-pynacl
 pypi-pynsist
