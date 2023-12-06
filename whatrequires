@@ -72,6 +72,7 @@ pypi-devpi_common
 pypi-devpi_process
 pypi-devpi_server
 pypi-dill
+pypi-django
 pypi-django_compressor
 pypi-docutils
 pypi-ecdsa
@@ -79,6 +80,7 @@ pypi-elementpath
 pypi-enrich
 pypi-execnet
 pypi-executing
+pypi-expandvars
 pypi-falcon
 pypi-fastimport
 pypi-filelock
@@ -89,6 +91,7 @@ pypi-flask
 pypi-flit
 pypi-fontmath
 pypi-freetype_py
+pypi-freezegun
 pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
@@ -230,6 +233,7 @@ pypi-termcolor
 pypi-texttable
 pypi-tldextract
 pypi-toml
+pypi-tornado
 pypi-translationstring
 pypi-twine
 pypi-typing_extensions
