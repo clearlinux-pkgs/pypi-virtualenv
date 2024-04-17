@@ -34,8 +34,8 @@ pypi-appdirs
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-arrow
+pypi-asgiref
 pypi-asttokens
-pypi-atpublic
 pypi-attr
 pypi-attrs
 pypi-automat
@@ -228,7 +228,6 @@ pypi-sphinxcontrib_redoc
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
-pypi-sqlparse
 pypi-stack_data
 pypi-subprocess_tee
 pypi-sure
