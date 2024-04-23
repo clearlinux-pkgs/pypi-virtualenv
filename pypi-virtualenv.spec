@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-virtualenv
-Version  : 20.25.3
-Release  : 207
-URL      : https://files.pythonhosted.org/packages/42/28/846fb3eb75955d191f13bca658fb0082ddcef8e2d4b6fd0c76146556f0be/virtualenv-20.25.3.tar.gz
-Source0  : https://files.pythonhosted.org/packages/42/28/846fb3eb75955d191f13bca658fb0082ddcef8e2d4b6fd0c76146556f0be/virtualenv-20.25.3.tar.gz
+Version  : 20.26.0
+Release  : 208
+URL      : https://files.pythonhosted.org/packages/d8/02/0737e7aca2f7df4a7e4bfcd4de73aaad3ae6465da0940b77d222b753b474/virtualenv-20.26.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/d8/02/0737e7aca2f7df4a7e4bfcd4de73aaad3ae6465da0940b77d222b753b474/virtualenv-20.26.0.tar.gz
 Summary  : Virtual Python Environment builder
 Group    : Development/Tools
 License  : MIT
@@ -75,10 +75,10 @@ python3 components for the pypi-virtualenv package.
 
 
 %prep
-%setup -q -n virtualenv-20.25.3
-cd %{_builddir}/virtualenv-20.25.3
+%setup -q -n virtualenv-20.26.0
+cd %{_builddir}/virtualenv-20.26.0
 pushd ..
-cp -a virtualenv-20.25.3 buildavx2
+cp -a virtualenv-20.26.0 buildavx2
 popd
 
 %build
@@ -86,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713377757
+export SOURCE_DATE_EPOCH=1713909077
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
