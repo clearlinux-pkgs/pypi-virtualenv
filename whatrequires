@@ -76,10 +76,10 @@ pypi-dill
 pypi-distlib
 pypi-django
 pypi-django_compressor
-pypi-docutils
 pypi-ecdsa
 pypi-elementpath
 pypi-enrich
+pypi-eventlet
 pypi-execnet
 pypi-executing
 pypi-expandvars
@@ -155,6 +155,7 @@ pypi-nodeenv
 pypi-openstep_plist
 pypi-ordered_set
 pypi-ovirt_imageio
+pypi-paginate
 pypi-passlib
 pypi-paste
 pypi-pastedeploy
