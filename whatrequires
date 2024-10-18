@@ -94,6 +94,7 @@ pypi-flit
 pypi-fontmath
 pypi-freetype_py
 pypi-freezegun
+pypi-ftfy
 pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
@@ -109,7 +110,6 @@ pypi-humanize
 pypi-hupper
 pypi-hyperframe
 pypi-hyperlink
-pypi-icalendar
 pypi-ijson
 pypi-importlib_metadata
 pypi-importlib_resources
