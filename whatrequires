@@ -52,7 +52,6 @@ pypi-booleanoperations
 pypi-build
 pypi-cachetools
 pypi-cattrs
-pypi-cffsubr
 pypi-check_jsonschema
 pypi-check_manifest
 pypi-cheetah3
@@ -67,6 +66,7 @@ pypi-coverage
 pypi-crypt_r
 pypi-cu2qu
 pypi-datetime
+pypi-dependency_groups
 pypi-deprecated
 pypi-devpi_client
 pypi-devpi_common
@@ -240,7 +240,6 @@ pypi-twine
 pypi-typing_extensions
 pypi-tzdata
 pypi-uc_micro_py
-pypi-ufo2ft
 pypi-ufolib2
 pypi-uharfbuzz
 pypi-unidecode
