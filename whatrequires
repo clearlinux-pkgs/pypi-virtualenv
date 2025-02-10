@@ -101,14 +101,11 @@ pypi-gql
 pypi-graphql_core
 pypi-graphviz
 pypi-greenlet
-pypi-h2
 pypi-h5py
 pypi-hatch_fancy_pypi_readme
-pypi-hpack
 pypi-html5lib
 pypi-humanize
 pypi-hupper
-pypi-hyperframe
 pypi-hyperlink
 pypi-ijson
 pypi-importlib_metadata
@@ -166,7 +163,6 @@ pypi-pep517
 pypi-perl
 pypi-persistent
 pypi-pip_tools
-pypi-pipdeptree
 pypi-pkginfo
 pypi-plaster
 pypi-plaster_pastedeploy
