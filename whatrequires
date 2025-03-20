@@ -40,7 +40,6 @@ pypi-attr
 pypi-attrs
 pypi-automat
 pypi-awxkit
-pypi-bcrypt
 pypi-beartype
 pypi-black
 pypi-bleach
@@ -86,7 +85,6 @@ pypi-expandvars
 pypi-falcon
 pypi-fastimport
 pypi-filelock
-pypi-fixtures
 pypi-flake8_docstrings
 pypi-flake8_isort
 pypi-flask
@@ -236,6 +234,7 @@ pypi-twine
 pypi-typing_extensions
 pypi-tzdata
 pypi-ua_parser
+pypi-ua_parser_builtins
 pypi-uc_micro_py
 pypi-ufolib2
 pypi-uharfbuzz
@@ -246,6 +245,7 @@ pypi-urwid
 pypi-userpath
 pypi-venusian
 pypi-versioneer
+pypi-versioningit
 pypi-waitress
 pypi-watchdog
 pypi-wcwidth
