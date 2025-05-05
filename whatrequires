@@ -50,6 +50,7 @@ pypi-boolean.py
 pypi-booleanoperations
 pypi-build
 pypi-cachetools
+pypi-calver
 pypi-cattrs
 pypi-check_jsonschema
 pypi-check_manifest
@@ -85,6 +86,7 @@ pypi-expandvars
 pypi-falcon
 pypi-fastimport
 pypi-filelock
+pypi-fixtures
 pypi-flake8_docstrings
 pypi-flake8_isort
 pypi-flask
@@ -140,11 +142,14 @@ pypi-molecule
 pypi-molecule_docker
 pypi-more_itertools
 pypi-munch
+pypi-mypy_extensions
 pypi-myst_nb
 pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-nocasedict
+pypi-nocaselist
 pypi-nodeenv
 pypi-openstep_plist
 pypi-ordered_set
@@ -254,6 +259,7 @@ pypi-werkzeug
 pypi-wsgiproxy2
 pypi-wsproto
 pypi-xmlschema
+pypi-xvfbwrapper
 pypi-yapf
 pypi-zipp
 pypi-zope.deferredimport
